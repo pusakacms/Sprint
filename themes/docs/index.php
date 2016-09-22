@@ -6,8 +6,8 @@
     <?= $html_meta->renderTags() ?>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="/themes/docs/css/custom.css" />
-    <link rel="stylesheet" type="text/css" href="/themes/docs/css/codestyles/rainbow.css" />
+    <link rel="stylesheet" type="text/css" href="<?= base_url(); ?>themes/docs/css/custom.css" />
+    <link rel="stylesheet" type="text/css" href="<?= base_url(); ?>themes/docs/css/codestyles/rainbow.css" />
 </head>
 <body>
 
@@ -96,8 +96,8 @@
 
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-    <script src="/themes/docs/js/ajax.js"></script>
-    <script src="/themes/docs/js/highlight.min.js"></script>
-    <script src="/themes/docs/js/docs.js"></script>
+    <script src="<?= base_url(); ?>themes/docs/js/ajax.js"></script>
+    <script src="<?= base_url(); ?>themes/docs/js/highlight.min.js"></script>
+    <script src="<?= base_url(); ?>themes/docs/js/docs.js"></script>
 </body>
 </html>
